@@ -1,0 +1,125 @@
+
+.s_container {
+    background-image: url('../../assets/services_wave.svg');
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.s_left {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.s_card{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 52px 54px 0px rgba(65, 62, 101, 0.30);
+    padding: 20px;
+}
+
+.s_card h1 {
+    color: #19191B;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+
+.s_card p{
+    color: #696871;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.s_card_img{
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_1{
+    background-image: url('../../assets/Icon-1.svg');
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card_2{
+    background-image: url('../../assets/Icon-2.svg');
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card_3{
+    background-image: url('../../assets/Icon-3.svg');
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card_4{
+    background-image: url('../../assets/Icon-4.svg');
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.s_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 30px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.s_right h1{
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -1.876px;
+}
+
+.s_right h2{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+    margin-top: 25px;
+}
+
+.s_right button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}

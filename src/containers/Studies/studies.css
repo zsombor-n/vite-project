@@ -1,0 +1,55 @@
+.st_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 2rem 6rem;
+}
+
+.st_sec_one,
+.st_sec_two {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.st_left,
+.st_right {
+    flex: 1;
+}
+
+.st_right {
+    display: flex;
+    justify-content: center;
+}
+
+.st_right img {
+    max-width: 50%;
+    height: auto;
+}
+
+.st_left h1 {
+    color: #19191B;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+margin-top: 25px;
+}
+
+.st_left h2 {
+    color: #696871;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 450;
+    margin-top: 25px;
+}
+
+.st_sec_two .st_left {
+    order: 2;
+    /* Swap the order of .st_left and .st_right in the second section */
+}
+
+.st_sec_two .st_right {
+    order: 1;
+}

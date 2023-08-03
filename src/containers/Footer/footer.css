@@ -1,0 +1,58 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/footer.svg');
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 6rem;
+    height: 400px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    text-align: left;
+}
+
+.footer_logo{
+    width: 195px;
+    height: 96px;
+    margin-left: 0;
+}
+
+
+.footer_links_about h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.footer_links_about p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+}
+
+.footer_copyright p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: -0.406px;
+}
